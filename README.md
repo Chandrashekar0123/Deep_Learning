@@ -13,6 +13,8 @@ Freeze the pre-trained layers (optional) to retain their learned features.
 
 Fine-tune the model with the dataset-specific images.
 
+
+
 1. Cats vs Dogs Dataset : 
 The Cats vs Dogs dataset is widely used for binary classification tasks in machine learning.
 
@@ -27,6 +29,8 @@ Labels:
 
 This dataset is ideal for binary classification experiments and demonstrates the effectiveness of models leveraging transfer learning.
 
+
+
 2. Oxford Flowers 102 Dataset : 
 The Oxford Flowers 102 dataset is commonly used for flower classification tasks.
 
@@ -40,6 +44,8 @@ Distribution: Each category contains 40–258 images, making it suitable for cla
 
 This dataset tests the ability of transfer learning models to handle varied backgrounds, lighting, and orientations.
 
+
+
 3. CIFAR-10 Dataset : 
 The CIFAR-10 dataset is a benchmark dataset for image classification.
 
@@ -51,15 +57,20 @@ Number of Images: 60,000 32x32 color images (50,000 training and 10,000 testing)
 
 Preprocessing: Normalized pixel values and categorical labels.
 
+
+
 Transfer Learning : 
 Transfer learning leverages pre-trained models to improve training efficiency and accuracy, especially when labeled data is limited or the dataset is small.
 
 Key Advantages:
+
 Pre-trained Knowledge: Models like VGG16, ResNet, and EfficientNet, trained on large datasets (e.g., ImageNet), bring learned features that can generalize to new tasks.
 
 Reduced Training Time: By reusing feature extraction layers, training is faster and computationally efficient.
 
 Improved Accuracy: Pre-trained models help achieve better results, even with smaller datasets.
+
+
 
 Example Use Case : 
 In this repository, transfer learning was implemented with the CIFAR-10 dataset using the pre-trained VGG16 an AlexNet models. The base model was modified to suit the dataset's input size and number of classes.
