@@ -2,6 +2,9 @@ Monkeypox Detection Using Deep Learning
 
 This project focuses on leveraging deep learning techniques for the detection and classification of Monkeypox from image data. The aim is to build an accurate and robust model that can assist in the early diagnosis of Monkeypox, potentially aiding healthcare professionals in mitigating the spread of the disease.
 
+Dataset : https://www.kaggle.com/datasets/nafin59/monkeypox-skin-lesion-dataset
+
+
 Features of the Project
 
 Dataset: High-quality images curated for Monkeypox detection.
